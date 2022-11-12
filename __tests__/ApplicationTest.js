@@ -68,4 +68,7 @@ describe("로또 테스트", () => {
       app.play();
     }).toThrow("[ERROR]");
   });
-});
+
+  
+
+}); 

@@ -15,4 +15,10 @@ describe("로또 클래스 테스트", () => {
   });
 
   // 아래에 추가 테스트 작성 가능
+
+  test('two plus two is four', () => {
+    const Lottery = new Lotto([1,2,3,4,5,6])
+    
+    expect(Lottery.getNumbers()).toEqual([1,2,3,4,5,6]);
+  });
 });
